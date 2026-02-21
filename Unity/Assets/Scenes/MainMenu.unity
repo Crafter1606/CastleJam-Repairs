@@ -927,8 +927,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18, y: 302.4796}
-  m_SizeDelta: {x: 569.6346, y: 89.0408}
+  m_AnchoredPosition: {x: 12, y: 264}
+  m_SizeDelta: {x: 598.051, y: 89.0408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1339110908
 MonoBehaviour:
@@ -952,8 +952,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SILKBORN
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 555e7a8e495b67a4eab868f99b47b76d, type: 2}
+  m_sharedMaterial: {fileID: 463538660527525402, guid: 555e7a8e495b67a4eab868f99b47b76d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
