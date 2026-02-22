@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.08627451, g: 0.64705884, b: 0.8862745, a: 1}
-    m_HighlightedColor: {r: 0.08627451, g: 0.64705884, b: 0.8862745, a: 1}
+    m_HighlightedColor: {r: 0.29405478, g: 0.45825747, b: 0.5283019, a: 1}
     m_PressedColor: {r: 0.08627451, g: 0.64705884, b: 0.8862745, a: 1}
     m_SelectedColor: {r: 0.13251044, g: 0.48049143, b: 0.6289307, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -388,7 +388,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.08627451, g: 0.64705884, b: 0.8862745, a: 1}
-    m_HighlightedColor: {r: 0.08627451, g: 0.64705884, b: 0.8862745, a: 1}
+    m_HighlightedColor: {r: 0.2616589, g: 0.4750226, b: 0.5660378, a: 1}
     m_PressedColor: {r: 0.08627451, g: 0.64705884, b: 0.8862745, a: 1}
     m_SelectedColor: {r: 0.13251044, g: 0.48049143, b: 0.6289307, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: START
+  m_text: Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1568,7 +1568,7 @@ GameObject:
   - component: {fileID: 1538759061}
   - component: {fileID: 1538759060}
   m_Layer: 5
-  m_Name: Start
+  m_Name: Play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1613,10 +1613,10 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 0.08627451, g: 0.64705884, b: 0.8862745, a: 1}
-    m_HighlightedColor: {r: 0.08627451, g: 0.64705884, b: 0.8862745, a: 1}
+    m_HighlightedColor: {r: 0.13201605, g: 0.43184817, b: 0.5597484, a: 1}
     m_PressedColor: {r: 0.08627451, g: 0.64705884, b: 0.8862745, a: 1}
     m_SelectedColor: {r: 0.13251044, g: 0.48049143, b: 0.6289307, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1663,7 +1663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.08644817, g: 0.64511, b: 0.8867924, a: 1}
+  m_Color: {r: 0.836478, g: 0.836478, b: 0.836478, a: 0.8666667}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
