@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 69662d46779f6a447b06393df967b2f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2092126047832817408
+    second: SilkbornCastleJam_0
+  - first:
+      213: 5227536260983175361
+    second: SilkbornCastleJam_1
+  - first:
+      213: -1866804169962095009
+    second: SilkbornCastleJam_2
+  - first:
+      213: 5446985174249722592
+    second: SilkbornCastleJam_3
+  - first:
+      213: -221869691649922099
+    second: SilkbornCastleJam_4
+  - first:
+      213: 5367048174289550551
+    second: SilkbornCastleJam_5
+  - first:
+      213: -910927114624739857
+    second: SilkbornCastleJam_6
+  - first:
+      213: -1013855867180078479
+    second: SilkbornCastleJam_7
+  - first:
+      213: -225049945262975300
+    second: SilkbornCastleJam_8
+  - first:
+      213: -8254599661893475321
+    second: SilkbornCastleJam_9
+  - first:
+      213: -5804183097876424415
+    second: SilkbornCastleJam_10
+  - first:
+      213: -1789097567392558199
+    second: SilkbornCastleJam_11
+  - first:
+      213: -8738204540794504737
+    second: SilkbornCastleJam_12
+  - first:
+      213: 7952144667723203789
+    second: SilkbornCastleJam_13
+  - first:
+      213: -5051036796168798329
+    second: SilkbornCastleJam_14
+  - first:
+      213: 4683776552959818920
+    second: SilkbornCastleJam_15
+  - first:
+      213: -7508720761063584976
+    second: SilkbornCastleJam_16
+  - first:
+      213: -3312298525589602538
+    second: SilkbornCastleJam_17
+  - first:
+      213: 1176454564423012165
+    second: SilkbornCastleJam_18
+  - first:
+      213: 4600055625837004322
+    second: SilkbornCastleJam_19
+  - first:
+      213: 1778641780045454275
+    second: SilkbornCastleJam_20
+  - first:
+      213: 6578024641962566808
+    second: SilkbornCastleJam_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SilkbornCastleJam_0
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 524
+        width: 531
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001459da17647f2e0800000000000000
+      internalID: -2092126047832817408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_1
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 495
+        width: 717
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8306e5880fb8840800000000000000
+      internalID: 5227536260983175361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_2
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 524
+        width: 537
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ef0388f77c716e0800000000000000
+      internalID: -1866804169962095009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_3
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 249
+        width: 109
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e259f71824979b40800000000000000
+      internalID: 5446985174249722592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_4
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 253
+        width: 73
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbe7c2e0b2cbecf0800000000000000
+      internalID: -221869691649922099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 251
+        width: 133
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcffe0f0e59b7a40800000000000000
+      internalID: 5367048174289550551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 253
+        width: 206
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe555849d9cbb53f0800000000000000
+      internalID: -910927114624739857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_7
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 251
+        width: 146
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a294fd57f0ee1f0800000000000000
+      internalID: -1013855867180078479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_8
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 249
+        width: 219
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb611e3644670ecf0800000000000000
+      internalID: -225049945262975300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_9
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 249
+        width: 423
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704a7cd9755c17d80800000000000000
+      internalID: -8254599661893475321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_10
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 186
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129dfbf6936637fa0800000000000000
+      internalID: -5804183097876424415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_11
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 187
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9831d03dd39db27e0800000000000000
+      internalID: -1789097567392558199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_12
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 186
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9fc336449abb680800000000000000
+      internalID: -8738204540794504737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_13
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 187
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4882a6171bb5e60800000000000000
+      internalID: 7952144667723203789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_14
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 186
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f7ee0abcc17e9b0800000000000000
+      internalID: -5051036796168798329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_15
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 186
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac397e85fd100140800000000000000
+      internalID: 4683776552959818920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_16
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 173
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b443f204aabc790800000000000000
+      internalID: -7508720761063584976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_17
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 187
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f7e205a0a5802d0800000000000000
+      internalID: -3312298525589602538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_18
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 187
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f02d6713b935010800000000000000
+      internalID: 1176454564423012165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_19
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 120
+        width: 388
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2264d05383ea6df30800000000000000
+      internalID: 4600055625837004322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_20
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 61
+        width: 284
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb174a76410fa810800000000000000
+      internalID: 1778641780045454275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilkbornCastleJam_21
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 120
+        width: 386
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894e1fb5f86d94b50800000000000000
+      internalID: 6578024641962566808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SilkbornCastleJam_0: -2092126047832817408
+      SilkbornCastleJam_1: 5227536260983175361
+      SilkbornCastleJam_10: -5804183097876424415
+      SilkbornCastleJam_11: -1789097567392558199
+      SilkbornCastleJam_12: -8738204540794504737
+      SilkbornCastleJam_13: 7952144667723203789
+      SilkbornCastleJam_14: -5051036796168798329
+      SilkbornCastleJam_15: 4683776552959818920
+      SilkbornCastleJam_16: -7508720761063584976
+      SilkbornCastleJam_17: -3312298525589602538
+      SilkbornCastleJam_18: 1176454564423012165
+      SilkbornCastleJam_19: 4600055625837004322
+      SilkbornCastleJam_2: -1866804169962095009
+      SilkbornCastleJam_20: 1778641780045454275
+      SilkbornCastleJam_21: 6578024641962566808
+      SilkbornCastleJam_3: 5446985174249722592
+      SilkbornCastleJam_4: -221869691649922099
+      SilkbornCastleJam_5: 5367048174289550551
+      SilkbornCastleJam_6: -910927114624739857
+      SilkbornCastleJam_7: -1013855867180078479
+      SilkbornCastleJam_8: -225049945262975300
+      SilkbornCastleJam_9: -8254599661893475321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
