@@ -580,9 +580,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 248437660}
-  - component: {fileID: 248437666}
   m_Layer: 0
-  m_Name: Dropped Heart
+  m_Name: DroppedHeart
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -602,21 +601,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1065655355}
-  - {fileID: 1232454447}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &248437666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248437659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc77a916ca4434f72898c003761ddb6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ItemMoving
 --- !u!1 &314483212
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,7 +670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5354504718583199350, guid: 997a7c54be592bf478d259c221c3ebc7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.4
+      value: -10.29
       objectReference: {fileID: 0}
     - target: {fileID: 5354504718583199350, guid: 997a7c54be592bf478d259c221c3ebc7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20809,8 +20795,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1065655355}
-  - component: {fileID: 1065655358}
   - component: {fileID: 1065655359}
+  - component: {fileID: 1065655360}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -20830,36 +20816,10 @@ Transform:
   m_LocalPosition: {x: 0.141, y: 0.057, z: 0}
   m_LocalScale: {x: 0.28169253, y: 0.28323305, z: 0.3521157}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1232454447}
   m_Father: {fileID: 248437660}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1065655358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1065655354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ca2d0285e8274c5cae85ca90ca2d3b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::OnItemGet
-  itemNearPlayer:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 248437666}
-        m_TargetAssemblyTypeName: ItemMoving, Assembly-CSharp
-        m_MethodName: Die
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!58 &1065655359
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20896,6 +20856,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &1065655360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065655354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca2d0285e8274c5cae85ca90ca2d3b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OnItemGet
 --- !u!1 &1071560419
 GameObject:
   m_ObjectHideFlags: 0
@@ -21058,11 +21030,11 @@ Transform:
   m_GameObject: {fileID: 1232454446}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.14, y: 0.05, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.0035521458, y: -0.024713958, z: 0}
+  m_LocalScale: {x: 3.5499697, y: 3.5306616, z: 2.8399756}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 248437660}
+  m_Father: {fileID: 1065655355}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1232454448
 Animator:

@@ -17,8 +17,6 @@ public class ItemMoving : MonoBehaviour
     public void Die()
     {
         Destroy(gameObject);
-      
-
         // if (collision.gameObject.TryGetComponent<Health>(out Health health))  { health.Heal(1); }
     }
 }
