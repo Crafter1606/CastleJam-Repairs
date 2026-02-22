@@ -43,29 +43,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44f5c80815d3f0347928f37ecab8fb8d, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyCollisionDetect
   onEnemyEnter:
     m_PersistentCalls:
       m_Calls: []
-  m_Script: {fileID: 11500000, guid: 5d709e724021c8742861444ecaba1303, type: 3}
-  m_Name:
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyCollisionDetect
-  PlayerDetection:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1007713439174153809}
-        m_TargetAssemblyTypeName: Health, Assembly-CSharp
-        m_MethodName: Damage
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument:
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!61 &3582127815653389839
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -268,7 +250,7 @@ Animator:
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -473,7 +455,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
@@ -519,7 +501,7 @@ GameObject:
   - component: {fileID: 5014423035265291197}
   - component: {fileID: 4530551528087030194}
   - component: {fileID: 1986207098733773219}
-  - component: {fileID: 1007713439174153809}
+  - component: {fileID: 3880196390272446998}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -582,7 +564,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8cae2d75fdd7e4844802d8cb1820c4f5, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   jump: {fileID: -1274357349905945733, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   dash: {fileID: 3142992586761556817, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -593,7 +575,6 @@ MonoBehaviour:
   speed: 10
   jumpHeight: 20
   gravity: 3
-  rigidBody: {fileID: 5014423035265291197}
   maxDashTime: 5
   dashSpeed: 50
 --- !u!114 &1986207098733773219
@@ -606,7 +587,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
   m_Actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_NotificationBehavior: 2
@@ -632,7 +613,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_ActionId: b5ca1588-a1c8-4e97-92ce-d2e3f44d4468
@@ -654,11 +635,11 @@ MonoBehaviour:
     m_ActionId: b71cf2a4-0d46-468e-a29c-3f4a7eae84a0
     m_ActionName: 'PlayerInput/Pause[/Keyboard/escape]'
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme:
+  m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerInput
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 1579443119334681519}
---- !u!114 &1007713439174153809
+--- !u!114 &3880196390272446998
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -668,7 +649,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6013d1e598e54174992f0ff5600a169b, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 2
   currentHealth: 2

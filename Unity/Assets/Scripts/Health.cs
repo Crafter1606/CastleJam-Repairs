@@ -7,6 +7,12 @@ public class Health : MonoBehaviour
     public int currentHealth;
     public Action Died;
 
+    private void OnTriggerEnter(Collider other)
+    {
+
+        if (other.CompareTag("Item")) Heal();
+    }
+
     public void Damage(int amount)
     {
         currentHealth -= amount;
@@ -16,9 +22,10 @@ public class Health : MonoBehaviour
         Died?.Invoke();
     }
 
-    public void Heal(int amount)
+    public void Heal()
     {
-        currentHealth += amount;
+        Debug.Log("Healed");
+        currentHealth += 1;
         if (currentHealth > maxHealth) currentHealth = maxHealth;
     }
 }

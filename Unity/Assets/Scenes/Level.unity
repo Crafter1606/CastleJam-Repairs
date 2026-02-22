@@ -664,6 +664,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 3.16
       objectReference: {fileID: 0}
+    - target: {fileID: 3880196390272446998, guid: 997a7c54be592bf478d259c221c3ebc7, type: 3}
+      propertyPath: currentHealth
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5354504718583199350, guid: 997a7c54be592bf478d259c221c3ebc7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.1
@@ -20799,7 +20803,7 @@ GameObject:
   - component: {fileID: 1065655360}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
