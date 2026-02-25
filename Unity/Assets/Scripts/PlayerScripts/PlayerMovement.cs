@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -16,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator _animator;
     private Vector2 _movement;
     private SpriteRenderer _spriteRenderer;
+    private Action _detachDiedListener;
     private float _currentDashTime;
     private float _offset;
     private float _width;
@@ -33,11 +35,16 @@ public class PlayerMovement : MonoBehaviour
         dash.action.performed += OnDash;
 
         if (TryGetComponent(out Health health))
-            health.Died += () =>
+        {
+            Action onDeath = () =>
             {
                 _animator.SetTrigger("died");
                 enabled = false;
             };
+            _detachDiedListener = health.Died -= onDeath;
+
+            health.Died += onDeath;
+        }
     }
 
 
@@ -69,6 +76,7 @@ public class PlayerMovement : MonoBehaviour
     {
         jump.action.performed -= OnJump;
         dash.action.performed -= OnDash;
+        _detachDiedListener?.Invoke();
     }
 
     private void OnJump(InputAction.CallbackContext context)
